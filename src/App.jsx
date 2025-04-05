@@ -170,6 +170,7 @@ export default function App() {
                   <Heading level="3">{note.name}</Heading>
                 </View>
                 <Text fontStyle="italic">{note.description}</Text>
+                <Text fontStyle="italic">{note.task}</Text>
                 {note.image && (
                   <Image
                     src={note.image}
