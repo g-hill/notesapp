@@ -60,6 +60,7 @@ export default function App() {
       name: form.get("name"),
       description: form.get("description"),
       image: form.get("image").name,
+      task: form.get("task"),
     });
 
     console.log(newNote);
@@ -119,6 +120,14 @@ export default function App() {
                 name="description"
                 placeholder="Note Description"
                 label="Note Description"
+                labelHidden
+                variation="quiet"
+                required
+              />
+              <TextField
+                name="task"
+                placeholder="Note task"
+                label="Note task"
                 labelHidden
                 variation="quiet"
                 required
