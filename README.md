@@ -1,2 +1,0 @@
-# notesapp
-ux notes app
